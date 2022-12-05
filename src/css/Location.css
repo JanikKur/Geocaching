@@ -1,0 +1,15 @@
+.difficulty{
+  text-align: right;
+  color: yellow;
+}
+.description, .difficulty, .name{
+  margin: 0px !important;
+}
+.delete-button{
+  border: 0px;
+  margin: 0px;
+  background-color: transparent;
+  color: red;
+  width: 20px;
+  cursor: pointer;
+}

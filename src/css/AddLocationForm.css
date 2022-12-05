@@ -1,0 +1,99 @@
+.addLocation-button{
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 3;
+  top: 20px;
+  right: 1%;
+  box-sizing: border-box;
+  border: 2px solid black;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(0,0,0,.8);
+  color: white;
+  border-radius: 100%;
+  font-size: 30px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+#addForm{
+  display: flex !important;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  flex-flow: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,.8);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+  color: white;
+  animation: fadeIn 0.5s;
+}
+#addForm input, select{
+  width: 70%;
+  max-width: 250px;
+  height: 35px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+#addForm input, select:focus{
+  outline: none;
+}
+#file{
+  display: none;
+}
+#upload-button{
+  border: 1px solid black;
+  box-sizing: border-box;
+  font-size: 100%;
+  background-color: rgba(27, 85, 25, 0.918);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  margin: 10px;
+}
+#submit-button{
+  border: 1px solid black;
+  box-sizing: border-box;
+  font-size: 100%;
+  background-color: rgba(240, 205, 52, 0.918);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  margin: 10px;
+}
+#close{
+  position: absolute;
+  border: 0px;
+  background-color: rgba(255, 255, 255, 0.0);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  top: 5px;
+  right: 5px;
+}
+#preview-image{
+  max-width: 50%;
+  cursor: pointer;
+}
+
+
+@keyframes fadeIn {
+    from{
+      width: 200px;
+    }
+    to{
+      width: 400px;
+    }
+}
